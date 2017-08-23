@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="| Some Message | Some Message |" tests="4" skipped="0" failures="2" errors="0" timestamp="2017-08-09T18:07:41" hostname="EPMXGUAW0210" time="0.09">
+  <properties/>
+  <testcase name="Given I set the custom message as &quot;Some Message&quot;" classname="| Some Message | Some Message |" time="0.0"/>
+  <testcase name="When I set the custom message flag to &quot;on&quot;" classname="| Some Message | Some Message |" time="0.0"/>
+  <testcase name="Then I should get the message &quot;Some Message&quot;" classname="| Some Message | Some Message |" time="0.001">
+    <failure message="org.junit.ComparisonFailure: expected:&lt;[Some Message]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[Some Message]&gt; but was:&lt;[]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.adopt.mpp.test.api.tests.definition.java7.poc.SampleTest.getMessage(SampleTest.java:36)
+	at ✽.Then I should get the message &quot;Some Message&quot;(poc/scenarios/ScenarioOutlineExample.feature:11)
+</failure>
+  </testcase>
+  <testcase name="classMethod" classname="| Some Message | Some Message |" time="100.161">
+    <failure message="org.junit.ComparisonFailure: expected:&lt;[Some Message]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[Some Message]&gt; but was:&lt;[]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.adopt.mpp.test.api.tests.definition.java7.poc.SampleTest.getMessage(SampleTest.java:36)
+	at ✽.Then I should get the message &quot;Some Message&quot;(poc/scenarios/ScenarioOutlineExample.feature:11)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

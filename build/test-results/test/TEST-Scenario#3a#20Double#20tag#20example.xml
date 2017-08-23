@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Double tag example" tests="5" skipped="2" failures="0" errors="0" timestamp="2017-08-09T18:12:42" hostname="EPMXGUAW0210" time="0.104">
+  <properties/>
+  <testcase name="Given I set the custom message as &quot;Welcome aboard!!!&quot;" classname="Scenario: Double tag example" time="0.0"/>
+  <testcase name="And I set the custom message flag to &quot;on&quot;" classname="Scenario: Double tag example" time="0.0"/>
+  <testcase name="When I merge the default message and the custom message" classname="Scenario: Double tag example" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I must get both messages concatenated" classname="Scenario: Double tag example" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="classMethod" classname="Scenario: Double tag example" time="100.24"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Get custom message" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-08-09T18:06:01" hostname="EPMXGUAW0210" time="0.054">
+  <properties/>
+  <testcase name="Given I set the custom message as &quot;Custom Hello World from Cucumber!&quot;" classname="Scenario: Get custom message" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: Get custom message" time="100.34"/>
+  <system-out><![CDATA[Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.adopt.mpp.test.api.runners.SampleRunnerTest" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="EPMXGUAW0210" time="0.0">
+  <properties/>
+  <system-out><![CDATA[Setting runtime options in createRuntime()
+
+?[31mFailed scenarios:?[0m
+?[31mpoc/scenarios/ScenarioOutlineExample.feature:15 ?[0m# Scenario Outline: Get custom messages
+?[31mpoc/scenarios/ScenarioOutlineExample.feature:16 ?[0m# Scenario Outline: Get custom messages
+
+10 Scenarios (?[31m2 failed?[0m, ?[33m6 undefined?[0m, ?[32m2 passed?[0m)
+33 Steps (?[31m2 failed?[0m, ?[33m18 undefined?[0m, ?[32m13 passed?[0m)
+10m1.023s
+
+org.junit.ComparisonFailure: expected:<[Some Message]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.adopt.mpp.test.api.tests.definition.java7.poc.SampleTest.getMessage(SampleTest.java:36)
+	at ?.Then I should get the message "Some Message"(poc/scenarios/ScenarioOutlineExample.feature:11)
+
+org.junit.ComparisonFailure: expected:<[Expected Message]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.adopt.mpp.test.api.tests.definition.java7.poc.SampleTest.getMessage(SampleTest.java:36)
+	at ?.Then I should get the message "Expected Message"(poc/scenarios/ScenarioOutlineExample.feature:11)
+
+
+You can implement missing steps with the snippets below:
+
+@Given("^A Session has been oppened$")
+public void a_Session_has_been_oppened() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Given("^A Planning has been created$")
+public void a_Planning_has_been_created() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Given("^A user has created a Pairing Attribute with name \"([^\"]*)\"$")
+public void a_user_has_created_a_Pairing_Attribute_with_name(String arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^A new user attempts to create a new Pairing Attribute with the same name$")
+public void a_new_user_attempts_to_create_a_new_Pairing_Attribute_with_the_same_name() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Then("^The application must return the user friendly error message \"([^\"]*)\"$")
+public void the_application_must_return_the_user_friendly_error_message(String arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Given("^A user has created a Pairing Attribute with id \"([^\"]*)\"$")
+public void a_user_has_created_a_Pairing_Attribute_with_id(String arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^A new user attempts to create a new Pairing Attribute with the same id$")
+public void a_new_user_attempts_to_create_a_new_Pairing_Attribute_with_the_same_id() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^I merge the default message and the custom message$")
+public void i_merge_the_default_message_and_the_custom_message() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Then("^I must get both messages concatenated$")
+public void i_must_get_both_messages_concatenated() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Given("^I mark this as a manual execution test$")
+public void i_mark_this_as_a_manual_execution_test() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Then("^I won't automate this test$")
+public void i_won_t_automate_this_test() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+]]></system-out>
+  <system-err><![CDATA[[pool-1-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Pairing Attribute Unique Key Constraint to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-unique-key-constraint.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-unique-key-constraint.jsonfda6c912-64ce-4386-a080-dab04caa18e8)
+[pool-2-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Pairing Attribute Error Handling:Pairing Attribute Unique Key Constraint in pairing-attribute-error-handling_pairing-attribute-unique-key-constraint.html in directory target\site\serenity  
+[pool-3-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Pairing Attribute Unique Key Constraint to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-unique-key-constraint.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-unique-key-constraint.json1d4f569a-7930-4a1a-acf0-a53a3f14b98f)
+[pool-3-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Pairing Attribute Primary Key Constraint to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-primary-key-constraint.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-primary-key-constraint.json4a0a3d8b-e5f1-4c6b-a0a8-0fb327bdfab1)
+[pool-4-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Pairing Attribute Error Handling:Pairing Attribute Unique Key Constraint in pairing-attribute-error-handling_pairing-attribute-unique-key-constraint.html in directory target\site\serenity  
+[pool-4-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Pairing Attribute Error Handling:Pairing Attribute Primary Key Constraint in pairing-attribute-error-handling_pairing-attribute-primary-key-constraint.html in directory target\site\serenity  
+[pool-5-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Pairing Attribute Unique Key Constraint to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-unique-key-constraint.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-unique-key-constraint.json24d4fd7c-07fb-4a8c-a8b5-f3a7705abba9)
+[pool-5-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Pairing Attribute Primary Key Constraint to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-primary-key-constraint.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-primary-key-constraint.json7092197b-fd10-43bf-9e1d-16ff582e0068)
+[pool-5-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get default message to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\messages_get-default-message.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\messages_get-default-message.json64fd0ee7-1de9-4d5f-bd31-3c954b9275cc)
+[pool-6-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Pairing Attribute Error Handling:Pairing Attribute Unique Key Constraint in pairing-attribute-error-handling_pairing-attribute-unique-key-constraint.html in directory target\site\serenity  
+[pool-6-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Pairing Attribute Error Handling:Pairing Attribute Primary Key Constraint in pairing-attribute-error-handling_pairing-attribute-primary-key-constraint.html in directory target\site\serenity  
+[pool-6-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Messages:Get default message in messages_get-default-message.html in directory target\site\serenity  
+[pool-7-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Pairing Attribute Unique Key Constraint to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-unique-key-constraint.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-unique-key-constraint.json46683ebc-3fc4-452c-a54c-d01629d8b333)
+[pool-7-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get default message to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\messages_get-default-message.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\messages_get-default-message.json8f97d925-1556-4523-9302-7d17cc53e02c)
+[pool-7-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Pairing Attribute Primary Key Constraint to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-primary-key-constraint.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-primary-key-constraint.json94e9ba4d-b808-43f5-b143-481bab3ffc00)
+[pool-7-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get custom message to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\messages_get-custom-message.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\messages_get-custom-message.json0c2b7fbe-fba6-4443-abf2-2d5acbd0fa18)
+[pool-8-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Pairing Attribute Error Handling:Pairing Attribute Unique Key Constraint in pairing-attribute-error-handling_pairing-attribute-unique-key-constraint.html in directory target\site\serenity  
+[pool-8-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Messages:Get default message in messages_get-default-message.html in directory target\site\serenity  
+[pool-8-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Pairing Attribute Error Handling:Pairing Attribute Primary Key Constraint in pairing-attribute-error-handling_pairing-attribute-primary-key-constraint.html in directory target\site\serenity  
+[pool-8-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Messages:Get custom message in messages_get-custom-message.html in directory target\site\serenity  
+[Test worker] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Get custom messages
+--------------------------------------------------------------------------
+[Test worker] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Then I should get the message "Some Message"
+[Test worker] ERROR net.serenitybdd.core.Serenity - expected:<[Some Message]> but was:<[]>
+[Test worker] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Get custom messages
+--------------------------------------------------------------------------
+[Test worker] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Then I should get the message "Expected Message"
+[Test worker] ERROR net.serenitybdd.core.Serenity - expected:<[Some Message]> but was:<[]>
+[pool-9-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Pairing Attribute Unique Key Constraint to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-unique-key-constraint.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-unique-key-constraint.json38d07882-bce4-47b9-bbdb-27dd706cef6c)
+[pool-9-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get custom messages to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\scenario-outline-example_get-custom-messages__2.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\scenario-outline-example_get-custom-messages__2.json73dc4557-5024-447f-b552-9a152df20718)
+[pool-9-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Pairing Attribute Primary Key Constraint to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-primary-key-constraint.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-primary-key-constraint.json2fe33489-6ff2-43e5-b6be-61b736ecf210)
+[pool-9-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get default message to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\messages_get-default-message.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\messages_get-default-message.json73f58930-651e-4661-ae6e-ca9631108da7)
+[pool-9-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get custom message to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\messages_get-custom-message.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\messages_get-custom-message.json750834fa-b6a8-4e7e-8a80-8e276572439b)
+[pool-10-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Pairing Attribute Error Handling:Pairing Attribute Unique Key Constraint in pairing-attribute-error-handling_pairing-attribute-unique-key-constraint.html in directory target\site\serenity  
+[pool-10-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Pairing Attribute Error Handling:Pairing Attribute Primary Key Constraint in pairing-attribute-error-handling_pairing-attribute-primary-key-constraint.html in directory target\site\serenity  
+[pool-10-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Messages:Get default message in messages_get-default-message.html in directory target\site\serenity  
+[pool-10-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Messages:Get custom message in messages_get-custom-message.html in directory target\site\serenity  
+[pool-10-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Scenario outline example:Get custom messages in scenario-outline-example_get-custom-messages__2.html in directory target\site\serenity  
+[pool-11-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Pairing Attribute Primary Key Constraint to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-primary-key-constraint.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-primary-key-constraint.json0ffd572b-a942-4c1a-801d-ce6aec7f4e35)
+[pool-11-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get default message to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\messages_get-default-message.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\messages_get-default-message.json68c7aa72-278b-4c86-ace1-a4c5e0f4b314)
+[pool-11-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Pairing Attribute Unique Key Constraint to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-unique-key-constraint.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-unique-key-constraint.jsonbe9bfb88-c75c-469d-99df-aee7e2a78353)
+[pool-11-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get custom messages to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\scenario-outline-example_get-custom-messages__2.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\scenario-outline-example_get-custom-messages__2.json5571158d-6926-4536-b663-c56aff826522)
+[pool-11-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Single tag example to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\tags-organization-examples_single-tag-example.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\tags-organization-examples_single-tag-example.json943ecf8c-946b-4a4b-ba05-9c0ce87d3c92)
+[pool-11-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get custom message to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\messages_get-custom-message.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\messages_get-custom-message.json3f4831bf-974c-439a-9ca3-aed1561a89d7)
+[pool-12-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Pairing Attribute Error Handling:Pairing Attribute Primary Key Constraint in pairing-attribute-error-handling_pairing-attribute-primary-key-constraint.html in directory target\site\serenity  
+[pool-12-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Pairing Attribute Error Handling:Pairing Attribute Unique Key Constraint in pairing-attribute-error-handling_pairing-attribute-unique-key-constraint.html in directory target\site\serenity  
+[pool-12-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Scenario outline example:Get custom messages in scenario-outline-example_get-custom-messages__2.html in directory target\site\serenity  
+[pool-12-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Tags organization examples:Single tag example in tags-organization-examples_single-tag-example.html in directory target\site\serenity  
+[pool-12-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Messages:Get custom message in messages_get-custom-message.html in directory target\site\serenity  
+[pool-12-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Messages:Get default message in messages_get-default-message.html in directory target\site\serenity  
+[pool-13-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get default message to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\messages_get-default-message.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\messages_get-default-message.jsondcd22b96-94c1-4c81-8fb7-b6e925472862)
+[pool-13-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Pairing Attribute Primary Key Constraint to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-primary-key-constraint.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-primary-key-constraint.jsonc016607e-e01d-4a6b-a5c5-b5c815341a17)
+[pool-13-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Pairing Attribute Unique Key Constraint to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-unique-key-constraint.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-unique-key-constraint.json6186e293-8ffd-474d-bcd7-1509f9cb1f60)
+[pool-13-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get custom messages to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\scenario-outline-example_get-custom-messages__2.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\scenario-outline-example_get-custom-messages__2.json4946ecce-83e5-4d30-8fe4-253af414f524)
+[pool-13-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Single tag example to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\tags-organization-examples_single-tag-example.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\tags-organization-examples_single-tag-example.jsona19947e5-2e24-42b1-ad08-e0fe1ba9dbdb)
+[pool-13-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Double tag example to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\tags-organization-examples_double-tag-example.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\tags-organization-examples_double-tag-example.jsoncc71c429-fdb9-454c-bd8b-9371ec88dd05)
+[pool-13-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get custom message to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\messages_get-custom-message.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\messages_get-custom-message.jsond32f542b-0bcd-4eee-853d-c584908b233f)
+[pool-14-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Pairing Attribute Error Handling:Pairing Attribute Unique Key Constraint in pairing-attribute-error-handling_pairing-attribute-unique-key-constraint.html in directory target\site\serenity  
+[pool-14-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Pairing Attribute Error Handling:Pairing Attribute Primary Key Constraint in pairing-attribute-error-handling_pairing-attribute-primary-key-constraint.html in directory target\site\serenity  
+[pool-14-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Messages:Get custom message in messages_get-custom-message.html in directory target\site\serenity  
+[pool-14-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Messages:Get default message in messages_get-default-message.html in directory target\site\serenity  
+[pool-14-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Scenario outline example:Get custom messages in scenario-outline-example_get-custom-messages__2.html in directory target\site\serenity  
+[pool-14-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Tags organization examples:Single tag example in tags-organization-examples_single-tag-example.html in directory target\site\serenity  
+[pool-14-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Tags organization examples:Double tag example in tags-organization-examples_double-tag-example.html in directory target\site\serenity  
+[pool-15-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Pairing Attribute Unique Key Constraint to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-unique-key-constraint.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-unique-key-constraint.json9317034c-ff5a-456f-a018-daa2c48f8dfc)
+[pool-15-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get custom messages to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\scenario-outline-example_get-custom-messages__2.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\scenario-outline-example_get-custom-messages__2.json89a8ad2a-33f0-4b73-84aa-f1ab6c08bf45)
+[pool-15-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Single tag example to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\tags-organization-examples_single-tag-example.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\tags-organization-examples_single-tag-example.jsoncf605021-a306-481a-b1dc-927c69bbaae2)
+[pool-15-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Double tag example to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\tags-organization-examples_double-tag-example.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\tags-organization-examples_double-tag-example.json1763403e-a73f-4524-b206-fa75375e83c0)
+[pool-15-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Pairing Attribute Primary Key Constraint to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-primary-key-constraint.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-primary-key-constraint.json1142189e-4cd5-48ce-a09d-4e1c8bb004e6)
+[pool-15-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Version tag example to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\tags-organization-examples_version-tag-example.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\tags-organization-examples_version-tag-example.json0af487e1-5b0e-413e-986f-eeb1fde4c359)
+[pool-15-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get default message to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\messages_get-default-message.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\messages_get-default-message.json3a0723a4-d554-4fb6-bdc4-53e323f13314)
+[pool-15-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get custom message to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\messages_get-custom-message.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\messages_get-custom-message.jsonbded7004-9759-44f5-8765-eaae80e5b555)
+[pool-16-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Pairing Attribute Error Handling:Pairing Attribute Unique Key Constraint in pairing-attribute-error-handling_pairing-attribute-unique-key-constraint.html in directory target\site\serenity  
+[pool-16-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Pairing Attribute Error Handling:Pairing Attribute Primary Key Constraint in pairing-attribute-error-handling_pairing-attribute-primary-key-constraint.html in directory target\site\serenity  
+[pool-16-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Scenario outline example:Get custom messages in scenario-outline-example_get-custom-messages__2.html in directory target\site\serenity  
+[pool-16-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Messages:Get default message in messages_get-default-message.html in directory target\site\serenity  
+[pool-16-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Messages:Get custom message in messages_get-custom-message.html in directory target\site\serenity  
+[pool-16-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Tags organization examples:Single tag example in tags-organization-examples_single-tag-example.html in directory target\site\serenity  
+[pool-16-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Tags organization examples:Double tag example in tags-organization-examples_double-tag-example.html in directory target\site\serenity  
+[pool-16-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Tags organization examples:Version tag example in tags-organization-examples_version-tag-example.html in directory target\site\serenity  
+[pool-17-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Pairing Attribute Unique Key Constraint to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-unique-key-constraint.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-unique-key-constraint.json0959085e-b703-4760-b7d6-67f3fb848fd4)
+[pool-17-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Pairing Attribute Primary Key Constraint to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-primary-key-constraint.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\pairing-attribute-error-handling_pairing-attribute-primary-key-constraint.json8f9074f0-a803-46cd-bfc0-21b128970b89)
+[pool-17-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get custom messages to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\scenario-outline-example_get-custom-messages__2.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\scenario-outline-example_get-custom-messages__2.json9a615155-2c42-4f1c-81c0-0625da6d46ce)
+[pool-17-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Single tag example to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\tags-organization-examples_single-tag-example.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\tags-organization-examples_single-tag-example.json86501571-e768-4c59-936c-57646aaa1b7a)
+[pool-17-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Double tag example to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\tags-organization-examples_double-tag-example.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\tags-organization-examples_double-tag-example.jsonb1d11fb9-ef6a-46b2-bed1-1aa3d9271b6f)
+[pool-17-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Version tag example to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\tags-organization-examples_version-tag-example.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\tags-organization-examples_version-tag-example.json04f658a5-6047-4ee2-8b0f-bbc6f745b12e)
+[pool-17-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Manual test to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\tags-organization-examples_manual-test.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\tags-organization-examples_manual-test.json79e98bfb-807a-4126-aaaf-df8a5d83ae12)
+[pool-17-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get default message to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\messages_get-default-message.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\messages_get-default-message.jsondd41e851-7c2a-4b72-aecd-81f22524a8d6)
+[pool-17-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get custom message to file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\messages_get-custom-message.json (using temp file C:\Users\Roberto_Farfan\eclipse-workspace\pocAutomation\target\site\serenity\messages_get-custom-message.json7d7caa2d-b4a1-4c8d-894c-8e9c02068488)
+[pool-18-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Pairing Attribute Error Handling:Pairing Attribute Unique Key Constraint in pairing-attribute-error-handling_pairing-attribute-unique-key-constraint.html in directory target\site\serenity  
+[pool-18-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Pairing Attribute Error Handling:Pairing Attribute Primary Key Constraint in pairing-attribute-error-handling_pairing-attribute-primary-key-constraint.html in directory target\site\serenity  
+[pool-18-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Tags organization examples:Single tag example in tags-organization-examples_single-tag-example.html in directory target\site\serenity  
+[pool-18-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Scenario outline example:Get custom messages in scenario-outline-example_get-custom-messages__2.html in directory target\site\serenity  
+[pool-18-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Tags organization examples:Double tag example in tags-organization-examples_double-tag-example.html in directory target\site\serenity  
+[pool-18-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Tags organization examples:Version tag example in tags-organization-examples_version-tag-example.html in directory target\site\serenity  
+[pool-18-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Tags organization examples:Manual test in tags-organization-examples_manual-test.html in directory target\site\serenity  
+[pool-18-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Messages:Get default message in messages_get-default-message.html in directory target\site\serenity  
+[pool-18-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Messages:Get custom message in messages_get-custom-message.html in directory target\site\serenity  
+]]></system-err>
+</testsuite>

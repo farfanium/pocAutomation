@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Manual test" tests="3" skipped="2" failures="0" errors="0" timestamp="2017-08-09T18:14:22" hostname="EPMXGUAW0210" time="0.091">
+  <properties/>
+  <testcase name="Given I mark this as a manual execution test" classname="Scenario: Manual test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I won't automate this test" classname="Scenario: Manual test" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="classMethod" classname="Scenario: Manual test" time="0.092"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

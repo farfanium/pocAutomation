@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Pairing Attribute Primary Key Constraint" tests="6" skipped="5" failures="0" errors="0" timestamp="2017-08-09T18:04:20" hostname="EPMXGUAW0210" time="0.059">
+  <properties/>
+  <testcase name="Given A Session has been oppened" classname="Scenario: Pairing Attribute Primary Key Constraint" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="And A Planning has been created" classname="Scenario: Pairing Attribute Primary Key Constraint" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given A user has created a Pairing Attribute with id &quot;4000&quot;" classname="Scenario: Pairing Attribute Primary Key Constraint" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="When A new user attempts to create a new Pairing Attribute with the same id" classname="Scenario: Pairing Attribute Primary Key Constraint" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="Then The application must return the user friendly error message &quot;The primary key of the attribute already exists.&quot;" classname="Scenario: Pairing Attribute Primary Key Constraint" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="classMethod" classname="Scenario: Pairing Attribute Primary Key Constraint" time="0.061"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Get default message" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-08-09T18:04:21" hostname="EPMXGUAW0210" time="0.074">
+  <properties/>
+  <testcase name="When I set the custom message flag to &quot;off&quot;" classname="Scenario: Get default message" time="0.0"/>
+  <testcase name="Then I should get the message &quot;Hello World from Cucumber!&quot;" classname="Scenario: Get default message" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: Get default message" time="0.219"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
