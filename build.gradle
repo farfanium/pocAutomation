@@ -1,0 +1,52 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+repositories{
+  jcenter()
+}
+
+dependencies{
+  testCompile (group:'net.serenity-bdd', name:'serenity-core', version:serenityVersion){
+	exclude group:'org.springframework'
+  }
+  
+  testCompile (group:'net.serenity-bdd', name:'serenity-cucumber', version:'1.5.4'){
+  	exclude group:'org.springframework'
+  }
+  
+  
+  testCompile group:'org.assertj', name:'assertj-core', version:'3.8.0'
+  testCompile (group:'org.slf4j', name:'slf4j-simple', version:'1.7.25') {force = true}
+  
+  testCompile files('/jemmy.jar')
+  
+//  testRuntime fileTree(dir: 'C:/Users/miguel.martinez/Documents/Insight/Builds/CRS/0.0.0.0.1-333/Planner/lib', include: '*.jar')
+//  testCompile 'info.cukes:cucumber-java8:1.2.5'
+//  testCompile 'net.serenity-bdd:serenity-junit:' + serenityVersion
+//  testCompile 'info.cukes:cucumber-jvm:1.2.5'
+//  testCompile group: 'io.cucumber', name: 'cucumber-expressions', version: '4.0.3'
+  
+}
+
+
+
+buildscript{
+  project.ext{
+    serenityVersion = '1.5.3'
+  }
+  
+  repositories{
+    jcenter()
+  }
+  
+  dependencies{
+    classpath("net.serenity-bdd:serenity-gradle-plugin:1.5.3")
+  }
+}
+
+test {
+    //systemProperties System.getProperties()
+}
+
+gradle.startParameter.continueOnFailure = true

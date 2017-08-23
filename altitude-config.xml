@@ -1,0 +1,27 @@
+<altitude-configuration>
+    <Database>
+        <Provider>postgres</Provider>
+        <DriverType>thin</DriverType>
+        <ServerName>localhost</ServerName>
+        <InstanceName>altitude</InstanceName>
+        <Driver>org.postgresql.Driver</Driver>
+        <UserName>crsaop_pi</UserName>
+        <Password>lkdenfoffpolcpno</Password>
+        <ConnectionTimeOut>60</ConnectionTimeOut>
+        <Port>5432</Port>
+        <SqlTrace>true</SqlTrace>
+    </Database>
+    <Hibernate>
+        <Dialect>org.hibernate.dialect.PostgreSQLDialect</Dialect>
+        <UseDefaultSchema>false</UseDefaultSchema>
+    </Hibernate>
+    <BlueModuleIntegration>
+        <UseBlueModule>false</UseBlueModule>
+    </BlueModuleIntegration>
+    <JMSConfiguration>
+        <Active>false</Active>
+    </JMSConfiguration>
+    <NotificationCenter>
+        <Active>false</Active>
+    </NotificationCenter>
+</altitude-configuration>
